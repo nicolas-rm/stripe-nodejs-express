@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import pool from '../database/conexion.database';
 import Stripe from 'stripe';
-const stripe = new Stripe('sk_test_51HWnnrARF0Uplu4WQn2lBBUJrVjMIhY06hbqCHjj32jDfSN8cm7896RazgIlc03INEgDkhiK2Fb7vIpWON7sNm3W00yZInEgn3', { apiVersion: '2020-08-27' });
+const stripe = new Stripe('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', { apiVersion: '2020-08-27' });
 class IndexController {
 
     // public pay: Stripe;
